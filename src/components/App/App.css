@@ -1,0 +1,46 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-header h1 {
+  line-height: 50px;
+  margin: 0;
+}
+
+.persons-list {
+  padding: 0 30px;
+}
+
+.find-button {
+  border-radius: 50px;
+  padding: 10px 50px;
+  margin-top: 50px;
+  background-color: #ff976d;
+  font-size: 20px;
+  border: 1px solid red;
+  text-transform: uppercase;
+}
+
+.find-button:focus {
+  outline: none;
+}
+
+.find-button:hover {
+  background-color: #f36a33;
+  cursor: pointer;
+}
+
+.find-button_disabled,
+.find-button_disabled:hover {
+  background-color: silver;
+  border-color: silver;
+}

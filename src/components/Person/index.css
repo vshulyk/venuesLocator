@@ -1,0 +1,16 @@
+.person {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.person:hover {
+  background-color: silver;
+}
+
+.person_active {
+  border-color: navy;
+}
